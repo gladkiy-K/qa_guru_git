@@ -1,12 +1,13 @@
 package guru.qa.gladkiy;
 
 public class Main {
+    private static String msg = "Hello qa.guru!!!!!";
+
     public static void main(String[] args) {
-        
         System.out.println(getMessage());
     }
 
-    public static String getMessage() {
-        return "Hello qa.guru!";
+    private static String getMessage() {
+        return msg;
     }
 }
