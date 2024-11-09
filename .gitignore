@@ -18,3 +18,6 @@ out/
 
 ### Allure
 .allure
+
+### Logs
+*.log
